@@ -123,7 +123,7 @@
     "href": "template.html#summary-1",
     "title": "Simpleclean revealjs theme demo",
     "section": "Summary",
-    "text": "Summary\nA minimal and elegant presentation theme\nThe Quarto reveal.js clean theme aims to be a minimal and elegant presention theme.\nWe have highlighted some theme-specific components. But all of the regular reveal.js functionality is supported (chalkboard, etc.)\nInstall the theme:\nquarto install extension grantmcdermott/quarto-revealjs-clean\nUse these demo slides as a template:\nquarto use template grantmcdermott/quarto-revealjs-clean-demo"
+    "text": "Summary\nA minimal and elegant presentation theme\nThe Quarto reveal.js clean theme aims to be a minimal and elegant presention theme.\nWe have highlighted some theme-specific components. But all of the regular reveal.js functionality is supported (chalkboard, etc.)\nInstall the theme:\nquarto install extension rahuketu86/quarto-simpleclean-revealjs\nUse these demo slides as a template:\nquarto use template rahuketu86/quarto-simpleclean-revealjs"
   },
   {
     "objectID": "template.html#references",

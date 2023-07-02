@@ -375,13 +375,13 @@ etc.)
 Install the theme:
 
 ``` bash
-quarto install extension grantmcdermott/quarto-revealjs-clean
+quarto install extension rahuketu86/quarto-simpleclean-revealjs
 ```
 
 Use these demo slides as a template:
 
 ``` bash
-quarto use template grantmcdermott/quarto-revealjs-clean-demo
+quarto use template rahuketu86/quarto-simpleclean-revealjs
 ```
 
 ## References
