@@ -170,7 +170,7 @@ full span column in the same slide.
 
 ::: columns
 ::: {.column width="50%"}
-![](images/kanagawa.jpg)
+![](images/kanagawa.jpg){.preview-image}
 :::
 
 ::: {.column width="50%"}

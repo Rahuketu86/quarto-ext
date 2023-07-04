@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+# website:
+#   title: "Quarto Clean Format"
+#   navbar:
+#     search: true
+#     right:
+#       - icon: github
+#         href: https://github.com/Rahuketu86/quarto-simpleclean-revealjs
+
+website:
+  title: "Rahul Saraf"
+  # site-url: 'https://zealmaker.com'
+  # site-path: '/'
+  # google-analytics: "G-2R9V7T7Q06"
+  navbar:
+    left:
+      - customformat.qmd
+format:
+  html:
+    toc: true
+
+# project:
+#   execute-dir: project
