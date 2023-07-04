@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -96,22 +130,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
-<div class="quarto-about-trestles">
+<div class="quarto-about-solana column-body">
   <div class="about-entity">
-    <img src="profile.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Rahul Saraf</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header>
-    <div class="about-links">
+</header> <div class="about-links">
   <a href="https://twitter.com/rahuketu86" class="about-link" rel="" target="">
     <i class="bi bi-twitter"></i>
      <span class="about-link-text">Twitter</span>
@@ -125,102 +157,25 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text">Github</span>
   </a>
 </div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I am a Leader, an Innovator and Problem Solver with extensive experience in building Digital transformation, Operational Excellence and Data Science initiatives. I have been running cross-functional, diverse and distributed teams across the globe. I have lived in countries like in US, France, Norway, Oman and India. I have been fortunate to be part of building some industry leading state of art technologies in domain of reservoir simulation, production monitoring, fiber optics, digital oilfields and now predictive maintenance &amp; data science. In my present work as Regional Data Science lead of Middle East, North Africa and Asia Pacific for Halliburton, I spend significant portion of my time mentoring organizations, coaching executives, and peers (&gt; 200) embarking in digital strategy, analytics and machine learning journey, in addition to looking after all the opportunity pipeline and project execution.</p>
+      <div class="about-contents"><div id="hero-heading">
+<p>This package provides following quarto extensions</p>
+<section id="custom-revealjs-formats" class="level2">
+<h2 data-anchor-id="custom-revealjs-formats">Custom Revealjs formats</h2>
+<section id="simpleclean" class="level3">
+<h3 data-anchor-id="simpleclean">Simpleclean</h3>
+<p>Install the theme:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> install extension rahuketu86/quarto-ext/custom-format/simpleclean</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Use these demo slides as a template:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> use template rahuketu86/quarto-ext/custom-format/simpleclean</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
 </div></div>
+    </div>
+    <img src="profile.jpg" class="about-image
+  rounded " style="width: 15em;">
+  </div>
 </div>
 
-<table class="table">
-<caption><strong>Education</strong></caption>
-<colgroup>
-<col style="width: 31%">
-<col style="width: 43%">
-<col style="width: 24%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>ISB, Indian School of Business, INDIA</strong></td>
-<td><em>MBA (Partial Scholarship)</em></td>
-<td>Jan’21 – Jun’22</td>
-</tr>
-<tr class="even">
-<td><strong>ENSPM-IFP, Paris, FRANCE</strong></td>
-<td><em>MSc - Reservoir, Geoscience &amp; Engineering (Full Scholarship)</em></td>
-<td>Aug’08 – Dec’09</td>
-</tr>
-<tr class="odd">
-<td><strong>IIT Kanpur, INDIA</strong></td>
-<td><em>BTech - Civil Engineering</em></td>
-<td>Jul’04 – May’08</td>
-</tr>
-</tbody>
-</table>
-<table class="table">
-<caption><strong>Experience</strong></caption>
-<colgroup>
-<col style="width: 29%">
-<col style="width: 45%">
-<col style="width: 25%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>HALLIBURTON, Bangalore-India</strong></td>
-<td><em>Regional Data Science Lead - Middle East, North Africa, Asia Pacific</em></td>
-<td>2019-Present</td>
-</tr>
-<tr class="even">
-<td><strong>PDO/IPCOS, Muscat-Oman</strong></td>
-<td><em>Digital Oilfield Consultant - Nibras, Realtime Operations</em></td>
-<td>2015-2017</td>
-</tr>
-<tr class="odd">
-<td><strong>AGR, Stavanger-Norway</strong></td>
-<td><em>Senior Reservoir Engineer</em></td>
-<td>2014-2015</td>
-</tr>
-<tr class="even">
-<td><strong>ZIEBEL, Stavanger-Norway</strong></td>
-<td><em>Senior Engineer-Reservoir &amp; Software</em></td>
-<td>2012-2014</td>
-</tr>
-<tr class="odd">
-<td><strong>SPTGROUP, Oslo-Norway</strong></td>
-<td><em>Software Engineer- MEPO-Reservoir Development Group and JIPs (Joint Industry Projects)</em></td>
-<td>2010-2012</td>
-</tr>
-<tr class="even">
-<td><strong>FOROIL, Paris-France</strong></td>
-<td><em>Engineer-Petroleum Specialist</em></td>
-<td>2010</td>
-</tr>
-</tbody>
-</table>
-<table class="table">
-<caption><strong>Internship</strong></caption>
-<colgroup>
-<col style="width: 30%">
-<col style="width: 44%">
-<col style="width: 25%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>TOTAL, Pau, FRANCE</strong></td>
-<td><em>Reservoir Engineer</em></td>
-<td>Jul’09 – Dec’09</td>
-</tr>
-<tr class="even">
-<td><strong>SUNY ESF-Environment, Science and Forestry College, Syracuse, New York, USA</strong></td>
-<td><em>Research Analyst</em></td>
-<td>May’07 – Jul’07</td>
-</tr>
-<tr class="odd">
-<td><strong>IIT Kanpur-Resource, Planning and Generation Department, INDIA</strong></td>
-<td><em>Developer-Alumni Portal</em></td>
-<td>May’06 – Jul’06</td>
-</tr>
-</tbody>
-</table>
 
 
 
