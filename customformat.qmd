@@ -1,8 +1,7 @@
 ---
 title: "Custom Format"
 listing:
-  contents: 
-      - simpleclean/template.qmd
+  contents: custom-format
   sort: "date desc"
   type: grid
   categories: true
