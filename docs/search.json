@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Rahul Saraf",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n      \nThis package provides following quarto extensions\n\n\n\n\nInstall the theme:\nquarto install extension rahuketu86/quarto-ext/custom-format/simpleclean\nUse these demo slides as a template:\nquarto use template rahuketu86/quarto-ext/custom-format/simpleclean"
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n      \nThis website provides following extensions :-\n\n\n\n\nInstall the theme:\nquarto install extension rahuketu86/quarto-ext/custom-format/simpleclean\nTo use the demo slides:\nquarto use template rahuketu86/quarto-ext/custom-format/simpleclean"
   },
   {
     "objectID": "custom-format/simpleclean/template.html#example-slide",
@@ -298,6 +298,6 @@
     "href": "index.html#custom-revealjs-formats",
     "title": "Rahul Saraf",
     "section": "",
-    "text": "Install the theme:\nquarto install extension rahuketu86/quarto-ext/custom-format/simpleclean\nUse these demo slides as a template:\nquarto use template rahuketu86/quarto-ext/custom-format/simpleclean"
+    "text": "Install the theme:\nquarto install extension rahuketu86/quarto-ext/custom-format/simpleclean\nTo use the demo slides:\nquarto use template rahuketu86/quarto-ext/custom-format/simpleclean"
   }
 ]

@@ -18,7 +18,7 @@ sidebar: false
 ---
 
 ::: {#hero-heading}
-This package provides following quarto extensions
+This website provides following extensions :-
 
 ## Custom Revealjs formats
 
@@ -29,7 +29,7 @@ Install the theme:
 quarto install extension rahuketu86/quarto-ext/custom-format/simpleclean
 ```
 
-Use these demo slides as a template:
+To use the demo slides:
 
 ``` bash
 quarto use template rahuketu86/quarto-ext/custom-format/simpleclean
