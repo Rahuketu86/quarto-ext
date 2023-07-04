@@ -11,7 +11,7 @@ author:
     affiliations: zealmaker.com
 date: last-modified
 image: kanagawa.jpg
-categories: [deeplearning, fastai]
+categories: [format-revealjs]
 bibliography: refs.bib
 editor: 
   markdown: 
