@@ -35,10 +35,10 @@ $selection-bg: #26351c !default;
     line-height: 1.5em;
 }
   
-.reveal p {
-    font-weight: 300;
-    margin-top: 1.25em;
-}
+// .reveal p {
+//     font-weight: 300;
+//     margin-top: 1.25em;
+// }
 
 // title and headings
 
@@ -50,6 +50,7 @@ $selection-bg: #26351c !default;
         font-size: 1.4em;
         font-weight: 350;
         line-height: 0;
+        margin-bottom: 1.25em;
     }
 
     .subtitle {
@@ -193,3 +194,14 @@ $selection-bg: #26351c !default;
     top: unset !important;
     color: $body-color !important;
 }
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+  }
+  
+  .grid-item {
+    background-color: #f1f1f1;
+    padding: 1px;
+  }

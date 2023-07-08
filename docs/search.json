@@ -32,7 +32,7 @@
     "href": "custom-format/simpleclean/template.html#components-2",
     "title": "Simpleclean revealjs theme demo",
     "section": "Components",
-    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Section 4.3.”"
+    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Section 4.4.”"
   },
   {
     "objectID": "custom-format/simpleclean/template.html#components-3",
@@ -299,5 +299,12 @@
     "title": "Rahul Saraf",
     "section": "",
     "text": "Install the theme:\nquarto install extension rahuketu86/quarto-ext/custom-format/simpleclean\nTo use the demo slides:\nquarto use template rahuketu86/quarto-ext/custom-format/simpleclean"
+  },
+  {
+    "objectID": "custom-format/simpleclean/template.html#test-slide",
+    "href": "custom-format/simpleclean/template.html#test-slide",
+    "title": "Simpleclean revealjs theme demo",
+    "section": "Test Slide",
+    "text": "Test Slide\nThis is a test slide\n\n\n\nWhat is an event?\nSome outcome that we can potentially or hypothetically observe or experience( e.g. outcome of rolling a fair sided dice)\n\n\nWhat is probability?\nChance of an event occurring\n\n\nWhat are odds?\n\nRepresentation: Event happens: Doesn’t happen (a:b)\nIf odd of event B is Odds(B) = a:b then -&gt; Probability of event is \\(P(B) = \\frac{a}{a+b}\\)\n\n\n\nWhat are Expectations?\nThe expected value of a random variable X is a weighted average of values X can take, with weights given by the probabilities of those values .If X can take on only a finite number of values(say, x1, x2,…, xn),we can calculate the expected value as\n\\[ E(X) = \\sum_{i}^{n}(x_i.P(X=x_i)) \\]"
   }
 ]
