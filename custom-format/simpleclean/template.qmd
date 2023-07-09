@@ -391,8 +391,7 @@ quarto use template rahuketu86/quarto-ext/custom-format/simpleclean
 ::: r-fit-text
 ::: grid-container
 ::: grid-item
-
-::: {.text-color:#9a2515}
+::: grid-highlight
 What is an event? 
 :::
 Some outcome that we can potentially or hypothetically observe or
@@ -400,7 +399,7 @@ experience( e.g. outcome of rolling a fair sided dice)
 :::
 
 ::: grid-item
-::: {.text-color:#9a2515}
+::: grid-highlight
 What is probability?
 :::
 
@@ -408,7 +407,7 @@ Chance of an event occurring
 :::
 
 ::: grid-item
-::: {.text-color:#9a2515}
+::: grid-highlight
 What are odds?
 :::
 
@@ -419,7 +418,7 @@ What are odds?
 :::
 
 ::: grid-item
-::: {.text-color:#9a2515}
+::: grid-highlight
 What are Expectations?
 :::
 

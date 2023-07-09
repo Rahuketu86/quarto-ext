@@ -201,7 +201,12 @@ $selection-bg: #26351c !default;
   }
   
   .grid-item {
-    border: solid 1px;
+    // border: solid 1px;
     padding-left: 5px;
     padding-top: 2px;
+  }
+
+  .grid-highlight {
+    color: $accent2;
+    font-weight: 350;
   }
