@@ -391,20 +391,26 @@ quarto use template rahuketu86/quarto-ext/custom-format/simpleclean
 ::: r-fit-text
 ::: grid-container
 ::: grid-item
-What is an event?
 
+::: {.text-color:#9a2515}
+What is an event? 
+:::
 Some outcome that we can potentially or hypothetically observe or
 experience( e.g. outcome of rolling a fair sided dice)
 :::
 
 ::: grid-item
+::: {.text-color:#9a2515}
 What is probability?
+:::
 
 Chance of an event occurring
 :::
 
 ::: grid-item
+::: {.text-color:#9a2515}
 What are odds?
+:::
 
 -   Representation: Event happens: Doesn't happen (a:b)
 
@@ -413,7 +419,9 @@ What are odds?
 :::
 
 ::: grid-item
+::: {.text-color:#9a2515}
 What are Expectations?
+:::
 
 The expected value of a random variable X is a weighted average of
 values X can take, with weights given by the probabilities of those

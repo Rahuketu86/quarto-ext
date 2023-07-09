@@ -198,10 +198,10 @@ $selection-bg: #26351c !default;
 .grid-container {
     display: inline-grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1px;
   }
   
   .grid-item {
-    background-color: #f1f1f1;
-    padding: 1px;
+    border: solid 1px;
+    padding-left: 5px;
+    padding-top: 2px;
   }
