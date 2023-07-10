@@ -195,10 +195,16 @@ $selection-bg: #26351c !default;
     color: $body-color !important;
 }
 
-.grid-container {
-    display: inline-grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+@mixin generate-grid-container($n_col, $m_col) {
+  @for $i from $n_col through $m_col {
+      .grid-container-#{$i} {
+        display: grid;
+        grid-template-columns: repeat($i, 1fr);
+      }
+    }
+}
+
+@include generate-grid-container(1, 8);
   
   .grid-item {
     // border: solid 1px;
