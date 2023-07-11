@@ -11,7 +11,7 @@ $right-arrow: "\2192"; // Unicode character for right arrow
 // fonts
 @import url(https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,350,350i,400,400i);
 $font-family-sans-serif: "Roboto", sans-serif !default;
-$presentation-font-size-root: 36px;
+$presentation-font-size-root: 28px;
 
 $presentation-heading-font: "Roboto", sans-serif !default;
 $presentation-heading-color: $jet !default;
@@ -197,9 +197,11 @@ $selection-bg: #26351c !default;
 
 @mixin generate-grid-container($n_col, $m_col) {
   @for $i from $n_col through $m_col {
-      .grid-container-#{$i} {
+    .reveal .slides section .grid-container-#{$i} {
         display: grid;
         grid-template-columns: repeat($i, 1fr);
+        overflow: auto;
+        height: calc(80% - 3em) !important;
       }
     }
 }

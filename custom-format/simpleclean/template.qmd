@@ -389,7 +389,7 @@ quarto use template rahuketu86/quarto-ext/custom-format/simpleclean
 ### This is a test slide
 
 ::: r-fit-text
-::: grid-container-2
+::: grid-container-1
 ::: grid-item
 ::: grid-highlight
 What is an event? 
